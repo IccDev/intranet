@@ -1,0 +1,91 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+h3,
+h4,
+h6 {
+  text-align: center;
+}
+
+h3 {
+  color: #fff;
+  font-weight: 600;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 32px;
+  padding: 5rem;
+}
+
+h4 {
+  color: #fff;
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 40px;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  padding: 30px;
+}
+
+.card {
+  width: 15rem;
+  height: 190px;
+  background: #fff;
+  border: 5px solid #8b3a87;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 40px;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.link {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  margin-top: 1.5rem;
+  padding: 10px;
+  width: 150px;
+  background: #8b3a87;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+/*****************************************mobile version******************************************/
+@media screen and (max-width: 991px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 40px;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    padding: 15px;
+  }
+
+  .card {
+    width: 170px;
+    height: 160px;
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .link {
+    width: 95px;
+    padding: 5px;
+  }
+}
