@@ -65,6 +65,13 @@ p {
   text-decoration: none;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 /*****************************************mobile version******************************************/
 @media screen and (max-width: 991px) {
   .container {
