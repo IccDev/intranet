@@ -14,11 +14,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build_o": "react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-
-    "build": "react-scripts --openssl-legacy-provider build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
