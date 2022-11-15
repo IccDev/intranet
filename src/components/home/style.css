@@ -1,14 +1,10 @@
 .home {
-  display: flex;
-  flex-direction: column;
   height: 100vh;
   overflow: hidden;
 }
 
 .header {
-  position: fixed;
   width: 100%;
-  flex-shrink: 1;
   left: 0;
   top: 0;
   z-index: 100;
@@ -25,14 +21,23 @@
 
 .main {
   flex-grow: 1;
-  position: relative;
+  position: absolute;
   top: 50px;
+  bottom: 56px;
+  left: 0px;
+  right: 0px;
   overflow: hidden;
 }
 
 .main-header {
   text-align: center;
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+  height: 86px;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 5px;
 }
 
 .main-header span {
@@ -45,16 +50,20 @@
 }
 
 .main-container {
-  height: 100%;
+  height: calc(100% - 100px);
   overflow: scroll;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 -5px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 4px;
 }
 
 .footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -63,6 +72,7 @@
   flex-direction: row;
   justify-content: space-around;
   background: #67c1ee;
+  height: 56px;
 }
 
 .footer-item {
@@ -75,7 +85,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 860px) { 
+@media screen and (min-width: 1280px) { 
 
   .main-container {
     gap: 1vh 6vw;
@@ -84,18 +94,15 @@
     justify-content: flex-start;
     margin: 0 0px;
     overflow: unset;
-    height: auto;
     padding-left: 200px;
     padding-right: 100px;
+    height: calc(100% - 100px);
+    margin: 0 -5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 4px;
   }
 
 }
-/*
-@media screen and (max-width: 860px) { 
 
-  .footer {
-    display: none;
-  }
-
-}
-*/
