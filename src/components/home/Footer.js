@@ -10,7 +10,7 @@ const Footer = () => {
         </div>
         <div className="footer-item">
           <strong>Email : </strong>
-          <p>contact@impactcentrechretien.com</p>
+          <p>icc-bruxelles@impactcentrechretien.be</p>
         </div>
         <div className="footer-item">
           <strong>Téléphone : </strong>
