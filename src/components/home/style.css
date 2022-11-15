@@ -63,7 +63,7 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -73,6 +73,7 @@
   justify-content: space-around;
   background: #67c1ee;
   height: 56px;
+  font-size: x-small;
 }
 
 .footer-item {
@@ -81,7 +82,7 @@
 
 .footer-item p {
   margin: 1px;
-  font-size: small;
+  /*font-size: small;*/
   text-align: center;
 }
 
@@ -102,6 +103,14 @@
     left: 0px;
     right: 0px;
     bottom: 4px;
+  }
+
+}
+
+@media screen and (min-width: 544px) { 
+
+  .footer {
+    font-size: small;
   }
 
 }
