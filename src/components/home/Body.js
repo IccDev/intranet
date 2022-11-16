@@ -14,7 +14,7 @@ const Body = () => {
             </div>
             <div className="main-container">
                 {
-                    service_data().map((item, i) => <ServiceCard key={i} description={item.description} path={item.path} />)
+                    service_data().map((item, i) => <ServiceCard key={i} description={item.description} url={item.url} />)
                 }
             </div>
         </main>
