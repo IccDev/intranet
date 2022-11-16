@@ -1,70 +1,129 @@
-/******************PC version***********************/
-
-/***********************************Partie Header****************************************************/
-.header {
-  position: fixed;
-  width: 100%;
+.home {
+  height: 100vh;
+  overflow: hidden;
 }
 
-.logo {
+.header {
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
   background: #8b3a87;
   height: 50px;
 }
 
-img {
+.logo {
   width: 35px;
   height: 35px;
   margin: 5px 0 0 1rem;
+  overflow-y: auto;
 }
 
-.bienvenue {
+.main {
+  flex-grow: 1;
+  position: absolute;
+  top: 50px;
+  bottom: 56px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+}
+
+.main-header {
+  text-align: center;
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+  height: 86px;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  right: 0px;
+  padding-bottom: 5px;
+}
+
+.main-header span {
+  text-align: center;
+}
+
+.main-header h1 {
+  font-size: 2em;
+  margin: 0.2em 0;
+}
+
+.main-container {
+  height: calc(100% - 100px);
+  overflow: scroll;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  height: 100px;
-  background: #fff;
-  border: 1px solid #dfdfdf;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 0 -5px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 4px;
 }
 
-.bienvenue h1 {
-  margin: 1rem;
-}
-
-.acceder {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 5px 1rem;
-}
-
-q {
-  color: #8b3a87;
-}
-/**********************************Partie footer******************************************/
 .footer {
   position: fixed;
   width: 100%;
+  left: 0;
   bottom: 0;
-}
-
-.element {
-  background: #67c1ee;
-  height: 100px;
+  z-index: 100;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 15px;
-  font-weight: 900;
+  justify-content: space-around;
+  background: #67c1ee;
+  height: 56px;
+  font-size: small;
 }
 
-/*****************************************mobile version******************************************/
-@media screen and (max-width: 991px) {
-  .element {
-    font-weight: 400;
-    justify-content: baseline;
-  }
+.footer-item {
+  text-align: center;
 }
+
+.footer-item p {
+  margin: 1px;
+  text-align: center;
+}
+
+.button {
+  display: block;
+  width: 115px;
+  height: 25px;
+  background: #4E9CAF;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+@media screen and (min-width: 1280px) { 
+
+  .main-container {
+    gap: 1vh 6vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0 0px;
+    overflow: unset;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: calc(100% - 100px);
+    margin: 0 -5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 4px;
+  }
+
+}
+
+@media screen and (max-width: 712px) { 
+
+  .footer {
+    font-size: x-small;
+  }
+
+}
+

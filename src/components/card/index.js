@@ -1,20 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./style.css";
 
-
-const ServiceCard = ({description, path}) => {
+const ServiceCard = ({description, url}) => {
     return (
         <div className="card">
             <h6>{description}</h6>
             <p>
-                <Link
-                    to={path}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="link"
-                >
+                {<a class="link" href={url} target="_blank" rel="noopener noreferrer">
                     Accéder
-                </Link>
+                </a>}
             </p>
         </div>
     )

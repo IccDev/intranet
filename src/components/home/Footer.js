@@ -2,23 +2,21 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <section className="footer">
-      <div className="element">
-        <div className="adresse">
-          <p>Adresse : </p>
+    <footer className="footer">
+        <div className="footer-item">
+          <strong>Adresse : </strong>
           <p>Rue des Lutins, 8</p>
           <p>1190 Forest</p>
         </div>
-        <div className="email">
-          <p>Email : </p>
-          <p>contact@impactcentrechretien.com</p>
+        <div className="footer-item">
+          <strong>Email : </strong>
+          <p>icc-bruxelles@impactcentrechretien.be</p>
         </div>
-        <div className="phone">
-          <p>Téléphone : </p>
+        <div className="footer-item">
+          <strong>Téléphone : </strong>
           <p>+32 2 245 92 50</p>
         </div>
-      </div>
-    </section>
+    </footer>
   );
 };
 

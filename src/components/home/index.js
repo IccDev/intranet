@@ -9,7 +9,7 @@ import "./style.css";
 //home Page
 const Home = () => {
     return (
-		<div className="main">
+		<div className="home">
 			<Header />
 			<Body />
 			<Footer />
