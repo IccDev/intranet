@@ -131,14 +131,14 @@
   }
   .main-header h2,
   span {
-    font-size: 14px;
+    font-size: 12px;
   }
   .footer {
     font-size: x-small;
   }
   .footer-item p {
     font-weight: 300;
-    font-size: 10px;
+    font-size: 8px;
     line-height: 10px;
   }
 }
