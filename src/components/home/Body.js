@@ -10,7 +10,7 @@ const Body = () => {
           Découvrez notre Intranet regroupant l’ensemble de nos différents sites
         </h2>
         <span>
-          Veillez cliquer sur le buton{" "}
+          Veuillez cliquer sur le buton{" "}
           <strong>
             <q>Accéder</q>
           </strong>{" "}
