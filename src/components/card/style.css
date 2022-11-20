@@ -1,6 +1,6 @@
 .card {
-  width: 10rem;
-  height: 94px;
+  width: 12rem;
+  height: 115px;
   background: white;
   border: 4px solid #8b3a87;
   border-radius: 16px;
@@ -21,6 +21,11 @@
 .card p {
   font-size: small;
   margin: 0px;
+}
+
+.card img {
+  width: 29px;
+  height: 32px;
 }
 
 .link {

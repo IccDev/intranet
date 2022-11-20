@@ -1,11 +1,11 @@
 import React from "react";
 import "./style.css";
 
-const ServiceCard = ({ description, url/*, icon*/ }) => {
+const ServiceCard = ({ description, url, image }) => {
   return (
     <div className="card">
       <h6>{description}</h6>
-      {/*<img className="service-icon" src={icon} alt="" />*/}
+      <img src={image} alt="" />
       <p>
         {
           <a

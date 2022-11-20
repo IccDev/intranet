@@ -17,7 +17,12 @@ const Body = () => {
       </div>
       <div className="main-container">
         {service_data().map((item, i) => (
-          <ServiceCard key={i} description={item.description} url={item.url} icon={item.img} />
+          <ServiceCard
+            key={i}
+            description={item.description}
+            image={item.image}
+            url={item.url}
+          />
         ))}
       </div>
     </main>
