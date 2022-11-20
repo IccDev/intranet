@@ -33,7 +33,7 @@
   margin-top: 1.5rem;
   padding: 6px;
   background: #8b3a87;
-  color: #000;
+  color: #fff;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
@@ -41,6 +41,6 @@
 
 @media screen and (max-width: 712px) {
   .card {
-    height: 130px;
+    height: 145px;
   }
 }
