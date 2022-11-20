@@ -6,7 +6,9 @@ const Body = () => {
   return (
     <main className="main">
       <div className="main-header">
-        <h1>Bienvenue à ICC</h1>
+        <h2>
+          Découvrez notre Intranet regroupant l’ensemble de nos différents sites
+        </h2>
         <span>
           Veillez cliquer sur le buton{" "}
           <strong>
