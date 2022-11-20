@@ -8,7 +8,7 @@ const Body = () => {
       <div className="main-header">
         <h1>Bienvenue à ICC</h1>
         <span>
-          Veuillez cliquer sur le buton{" "}
+          Veillez cliquer sur le buton{" "}
           <strong>
             <q>Accéder</q>
           </strong>{" "}
