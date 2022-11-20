@@ -8,7 +8,7 @@ const Body = () => {
       <div className="main-header">
         <h1>Bienvenue à ICC</h1>
         <span>
-          Veuillez cliquer sur le buton{" "}
+          Veillez cliquer sur le buton{" "}
           <strong>
             <q>Accéder</q>
           </strong>{" "}
@@ -17,7 +17,12 @@ const Body = () => {
       </div>
       <div className="main-container">
         {service_data().map((item, i) => (
-          <ServiceCard key={i} description={item.description} url={item.url} icon={item.img} />
+          <ServiceCard
+            key={i}
+            description={item.description}
+            image={item.image}
+            url={item.url}
+          />
         ))}
       </div>
     </main>

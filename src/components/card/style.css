@@ -1,7 +1,6 @@
 .card {
-  width: 10rem;
-  height: 94px;
-  background: white;
+  width: 12rem;
+  height: 110px;
   border: 4px solid #8b3a87;
   border-radius: 16px;
   margin: 11px 8px;
@@ -23,12 +22,17 @@
   margin: 0px;
 }
 
+.card img {
+  width: 29px;
+  height: 32px;
+}
+
 .link {
   border-radius: 10px;
   margin-top: 1.5rem;
   padding: 6px;
   background: #8b3a87;
-  color: #fff;
+  color: #000;
   font-weight: 600;
   text-align: center;
   text-decoration: none;
