@@ -6,9 +6,7 @@ const Body = () => {
   return (
     <main className="main">
       <div className="main-header">
-        <h2>
-          Découvrez notre Intranet regroupant l’ensemble de nos différents sites
-        </h2>
+        <h2>Accèder à nos différents services et informations</h2>
         <span>
           Veuillez cliquer sur le buton{" "}
           <strong>

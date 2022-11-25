@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <img className="logo" src={logo} alt="" />
-      <h1>Bienvenue à ICC</h1>
+      <h1>Intranet ICC Bruxelles</h1>
     </header>
   );
 };

@@ -81,16 +81,23 @@
 }
 
 .footer-item {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   color: #fff;
 }
 
-.footer-item p {
+.footer-item p,
+.hyperlink {
   margin: 1px;
   text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
+}
+
+.footer-item .hyperlink {
+  color: #fff;
 }
 
 .button {
@@ -113,7 +120,7 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     margin: 0 0px;
-    overflow: unset;
+    overflow: scroll;
     padding-left: 200px;
     padding-right: 100px;
     height: calc(100% - 100px);
@@ -126,6 +133,10 @@
 }
 
 @media screen and (max-width: 712px) {
+  .header h1 {
+    font-size: 20px;
+    margin: 20px 20px 20px 5px;
+  }
   .main {
     bottom: 0px;
   }
@@ -136,7 +147,8 @@
   .footer {
     font-size: x-small;
   }
-  .footer-item p {
+  .footer-item p,
+  .hyperlink {
     font-weight: 300;
     font-size: 8px;
     line-height: 10px;
