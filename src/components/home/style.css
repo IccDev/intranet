@@ -119,7 +119,6 @@
     gap: 1vh 6vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     margin: 0 0px;
     overflow: scroll;
     overflow-x: hidden;
