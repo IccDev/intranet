@@ -1,6 +1,6 @@
 .card {
   width: 10rem;
-  height: 125px;
+  height: 145px;
   background: #f2e7fb;
   border: 4px solid #8b3a87;
   border-radius: 16px;
@@ -16,6 +16,15 @@
 .card h6 {
   font-size: small;
   margin: 0px;
+  /* Solutions et divers questions */
+
+  font-family: "Cookie";
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13px;
+  text-align: center;
+
+  color: #0b097a;
 }
 
 .card p {
