@@ -71,6 +71,12 @@ const services_data = () => {
       url: "https://form.jotform.com/211714773212348",
     },
     {
+      description: "Fiche Je témoigne (MDIP) ",
+      image: require("../assets/voice.png"),
+      path: "/jeTemoigne",
+      url: "https://impactcentrechretien.elvanto.eu/form/8bef3db9-77b7-4a1c-9dbc-4f2435f4e823",
+    },
+    {
       description: "Formation PCNC - formulaire d'inscription R3 BX",
       image: require("../assets/form.png"),
       path: "/pcnc",
@@ -101,16 +107,16 @@ const services_data = () => {
       url: "https://www.iccitacademy.com/",
     },
     {
-      description: "Je témoigne (MDIP) ",
-      image: require("../assets/voice.png"),
-      path: "/jeTemoigne",
-      url: "https://impactcentrechretien.elvanto.eu/form/8bef3db9-77b7-4a1c-9dbc-4f2435f4e823",
-    },
-    {
       description: "Nurserie",
       image: require("../assets/playtime.png"),
       path: "/nurserie",
       url: "https://impactcentrechretien.elvanto.eu/form/f95b0f48-e85e-4a36-bf7c-100d9541c5b5",
+    },
+    {
+      description: "Plateforme Jetemoigne.be ",
+      image: require("../assets/voice.png"),
+      path: "/jeTemoigne",
+      url: "https://jetemoigne.egliseicc.be/",
     },
     {
       description: "Plateforme de Mariage (DCE) ",
