@@ -115,6 +115,23 @@
 }
 
 @media screen and (min-width: 2800px) {
+  .main-container {
+    gap: 1vh 3vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0px;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding-left: 200px;
+    padding-right: 100px;
+    height: calc(100% - 100px);
+    margin: 0 -5px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 4px;
+  }
+
   .footer {
     font-size: larger;
     height: 85px;
@@ -130,7 +147,7 @@
 
 @media screen and (min-width: 1280px) {
   .main-container {
-    gap: 1vh 6vw;
+    gap: 1vh 3vw;
     display: flex;
     flex-wrap: wrap;
     margin: 0 0px;

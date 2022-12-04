@@ -68,7 +68,7 @@ const services_data = () => {
       description: "Fiche de caisse (MFBC) ",
       image: require("../assets/contract.png"),
       path: "/fiche-de-caisse",
-      url: "#",
+      url: "https://form.jotform.com/211714773212348",
     },
     {
       description: "Formation PCNC - formulaire d'inscription R3 BX",
