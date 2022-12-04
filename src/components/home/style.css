@@ -114,6 +114,20 @@
   line-height: 25px;
 }
 
+@media screen and (min-width: 2800px) {
+  .footer {
+    font-size: larger;
+    height: 85px;
+  }
+
+  .footer-item p,
+  .hyperlink {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .main-container {
     gap: 1vh 6vw;
