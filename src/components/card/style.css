@@ -1,71 +1,224 @@
+
 .card {
-  width: 10rem;
-  height: 145px;
-  background: #f2e7fb;
-  border: 4px solid #8b3a87;
-  border-radius: 16px;
-  margin: 11px 8px;
-  padding: 0px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.card h6 {
-  font-size: inherit;
-  margin: 1px;
-  font-family: "Cookie";
-  font-style: normal;
-  font-weight: 600;
-  line-height: 15px;
-  text-align: center;
-
-  color: #0b097a;
-}
-
-.card p {
-  font-size: inherit;
-  margin: 0px;
-}
-
-.card img {
-  width: 59px;
-  height: 62px;
-}
-
-.link {
-  border-radius: 10px;
-  margin-top: 1.5rem;
-  padding: 6px;
-  background: #8b3a87;
-  color: #fff;
-  font-weight: 600;
-  text-align: center;
-  text-decoration: none;
-}
-
-@media screen and (min-width: 1280px) {
-  .card {
-    width: 17rem;
-    height: 210px;
-  }
-}
-
-@media screen and (max-width: 712px) {
-  .card {
-    height: 145px;
-  }
-  .card img {
-    width: 29px;
-    height: 32px;
-  }
-}
-
-@media screen and (max-width: 280px) {
-  .card {
     width: 7rem;
     height: 145px;
-  }
+    background: #f2e7fb;
+    border: 4px solid #8b3a87;
+    border-radius: 16px;
+    margin: 11px 8px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card h6 {
+    font-size: inherit;
+    margin: 1px;
+    font-family: "Cookie";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: center;
+  
+    color: #0b097a;
+}
+.card p {
+    font-size: inherit;
+    margin: 0px;
+}
+.card img {
+    width: 36px;
+    height: 36px;
+}
+.link {
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    padding: 6px;
+    background: #8b3a87;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+}
+@media screen and (min-width: 30em) {
+    .card {
+        width: 7rem;
+        height: 145px;
+        background: #f2e7fb;
+        border: 4px solid #8b3a87;
+        border-radius: 16px;
+        margin: 11px 8px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card h6 {
+        font-size: inherit;
+        margin: 1px;
+        font-family: "Cookie";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+      
+        color: #0b097a;
+    }
+    .card p {
+        font-size: inherit;
+        margin: 0px;
+    }
+    .card img {
+        width: 36px;
+        height: 36px;
+    }
+    .link {
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        padding: 6px;
+        background: #8b3a87;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .card {
+        width: 7rem;
+        height: 145px;
+        background: #f2e7fb;
+        border: 4px solid #8b3a87;
+        border-radius: 16px;
+        margin: 11px 8px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card h6 {
+        font-size: inherit;
+        margin: 1px;
+        font-family: "Cookie";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+      
+        color: #0b097a;
+    }
+    .card p {
+        font-size: inherit;
+        margin: 0px;
+    }
+    .card img {
+        width: 36px;
+        height: 36px;
+    }
+    .link {
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        padding: 6px;
+        background: #8b3a87;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+@media screen and (max-width: 60em) and (orientation: landscape) {
+    .card {
+        width: 7rem;
+        height: 145px;
+        background: #f2e7fb;
+        border: 4px solid #8b3a87;
+        border-radius: 16px;
+        margin: 11px 8px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card h6 {
+        font-size: inherit;
+        margin: 1px;
+        font-family: "Cookie";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+      
+        color: #0b097a;
+    }
+    .card p {
+        font-size: inherit;
+        margin: 0px;
+    }
+    .card img {
+        width: 36px;
+        height: 36px;
+    }
+    .link {
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        padding: 6px;
+        background: #8b3a87;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+@media screen and (min-width: 60em) {
+    .card {
+        width: 7rem;
+        height: 145px;
+        background: #f2e7fb;
+        border: 4px solid #8b3a87;
+        border-radius: 16px;
+        margin: 11px 8px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card h6 {
+        font-size: inherit;
+        margin: 1px;
+        font-family: "Cookie";
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+      
+        color: #0b097a;
+    }
+    .card p {
+        font-size: inherit;
+        margin: 0px;
+    }
+    .card img {
+        width: 36px;
+        height: 36px;
+    }
+    .link {
+        border-radius: 10px;
+        margin-top: 1.5rem;
+        padding: 6px;
+        background: #8b3a87;
+        color: #fff;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+    }
 }
