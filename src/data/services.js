@@ -140,7 +140,7 @@ const services_data = () => {
       description: "Programme de la semaine",
       image: require("../assets/calendar.png"),
       path: "/programme-de-la-semaine",
-      url: "https://www.youtube.com/watch?v=uFoLzkzych0",
+      url: "https://www.youtube.com/watch?v=2mXSdFJpehQ",
     },
     {
       description: "Radio Direct Impact",
